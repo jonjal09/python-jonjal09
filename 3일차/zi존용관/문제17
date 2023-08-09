@@ -1,0 +1,64 @@
+import random
+com = random.randrange(101)
+cnt = 1
+while True:
+    a = int(input('1~100'))
+    if a > com:
+        print('DOWN')
+    elif a < com:
+        print('UP')
+    elif a == com:
+        print('정답! 숫자:%d'%com)
+        print('%d번째 정답'%cnt)
+        break
+    else:
+        print('잘못된 숫자')
+        break
+    cnt += 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

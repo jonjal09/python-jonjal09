@@ -1,0 +1,81 @@
+import random
+print("++++++++++++가위바위보+++++++++++++")
+u = input("입력:")
+c = random.randrange(1,4)
+if c == 1:
+    if u == '가위':
+        print("User:%s vs Com:가위"%u)
+        print("비겼습니다.")
+    elif u == '바위':
+        print("User:%s vs Com:가위"%u)
+        print("이겼습니다.")
+    if u == '보':
+        print("User:%s vs Com:가위"%u)
+        print("졌습니다.")
+if c == 2:
+    if u == '가위':
+        print("User:%s vs Com:바위"%u)
+        print("졌습니다.")
+    elif u == '바위':
+        print("User:%s vs Com:바위"%u)
+        print("비겼습니다.")
+    if u == '보':
+        print("User:%s vs Com:바위"%u)
+        print("이겼습니다.")
+if c == 3:
+    if u == '가위':
+        print("User:%s vs Com:보"%u)
+        print("이겼습니다.")
+    elif u == '바위':
+        print("User:%s vs Com:보"%u)
+        print("졌습니다.")
+    if u == '보':
+        print("User:%s vs Com:보"%u)
+        print("비겼습니다.")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

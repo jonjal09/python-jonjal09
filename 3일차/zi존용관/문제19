@@ -1,0 +1,33 @@
+a = int(input())
+b = int(input())
+c = input()
+if c == '덧셈':
+    d = a + b
+    print(d)
+elif c == '뺄셈':
+    d = a - b
+    print(d)
+elif c == '곱셈':
+    d = a * b
+    print(d)
+elif c == '나눗셈':
+    d = a / b
+    print(d)
+elif c == '제곱':
+    d = a ** b
+    print(d)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
